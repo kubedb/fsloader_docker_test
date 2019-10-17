@@ -1,0 +1,6 @@
+#!/bin/sh -e
+echo "Running runit. Trying to get fsloader running"
+exec /fsloader/run_fsloader.sh
+echo "service ended"
+
+# ./fsloader/run_fsloader.sh
